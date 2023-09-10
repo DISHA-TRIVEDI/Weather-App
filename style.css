@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#box {
+  width: 35%;
+  background: linear-gradient(220deg, #118eee, #15f4e5);
+  text-align: center;
+  border: 2px solid whitesmoke;
+  border-radius: 55px;
+  margin-top: 3%;
+  margin-bottom: 7%;
+  margin-left: 30%;
+}
+
+.input_text {
+  padding: 30px;
+}
+
+.input {
+  padding: 5px;
+  font-size: 19px;
+  border: 1px solid #7ce1ee;
+  background-color: #9cdcdd;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+button {
+  width: 120px;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #23e7d0;
+}
+
+#image {
+  padding: 5px;
+  padding-bottom: 0;
+  width: 200px;
+}
+
+#temp {
+  font-size: 55px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#temp_type {
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-size: 25px;
+}
+
+#temp_detail {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#temp_detail i {
+  font-size: 35px;
+  margin-top: 6px;
+  margin-right: 5px;
+  color: whitesmoke;
+
+}
+
+#temp_humid,
+#temp_wind {
+  display: flex;
+
+  font-size: 20px;
+}
+
+#temp_humid {
+  margin-left: 80px;
+}
+
+#temp_wind {
+  margin-right: 30px;
+}
+
+#humidity,
+#wind_speed {
+  margin-top: 0;
+}
+
